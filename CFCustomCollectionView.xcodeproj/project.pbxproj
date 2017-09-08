@@ -13,6 +13,7 @@
 		B8411D3A1F62761E00B04ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8411D391F62761E00B04ACF /* Assets.xcassets */; };
 		B8411D3D1F62761E00B04ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8411D3B1F62761E00B04ACF /* LaunchScreen.storyboard */; };
 		B8411D401F62761E00B04ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8411D3F1F62761E00B04ACF /* main.m */; };
+		B8411D491F6280D000B04ACF /* EqualSpaceFlowLayoutEvolve.m in Sources */ = {isa = PBXBuildFile; fileRef = B8411D481F6280BD00B04ACF /* EqualSpaceFlowLayoutEvolve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B8411D3C1F62761E00B04ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8411D3E1F62761E00B04ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8411D3F1F62761E00B04ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8411D471F6280BD00B04ACF /* EqualSpaceFlowLayoutEvolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EqualSpaceFlowLayoutEvolve.h; sourceTree = "<group>"; };
+		B8411D481F6280BD00B04ACF /* EqualSpaceFlowLayoutEvolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EqualSpaceFlowLayoutEvolve.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		B8411D2F1F62761E00B04ACF /* CFCustomCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B8411D461F6280BD00B04ACF /* EqualSpaceFlowLayout */,
 				B8411D301F62761E00B04ACF /* AppDelegate.h */,
 				B8411D311F62761E00B04ACF /* AppDelegate.m */,
 				B8411D331F62761E00B04ACF /* ViewController.h */,
@@ -69,6 +73,15 @@
 				B8411D3F1F62761E00B04ACF /* main.m */,
 			);
 			path = CFCustomCollectionView;
+			sourceTree = "<group>";
+		};
+		B8411D461F6280BD00B04ACF /* EqualSpaceFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B8411D471F6280BD00B04ACF /* EqualSpaceFlowLayoutEvolve.h */,
+				B8411D481F6280BD00B04ACF /* EqualSpaceFlowLayoutEvolve.m */,
+			);
+			path = EqualSpaceFlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8411D491F6280D000B04ACF /* EqualSpaceFlowLayoutEvolve.m in Sources */,
 				B8411D351F62761E00B04ACF /* ViewController.m in Sources */,
 				B8411D401F62761E00B04ACF /* main.m in Sources */,
 				B8411D321F62761E00B04ACF /* AppDelegate.m in Sources */,
